@@ -20,6 +20,7 @@ head, script, link {
 }
 
 html, body {
+  width: 960px;
   position: relative;
   height: 100%;
 }
@@ -105,8 +106,16 @@ article.bio button {
   height: 45%;
   margin: auto 0px;
 }
-
+h1{
+  font-family: 'Anton', sans-serif;
+  font-size: 200%
+}
+h3 {
+  font-family: Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+}
 h1.header {
+  font-family: 'Pacifico', cursive;
   text-align: left;
   font-size: 7vw;
   }
@@ -164,6 +173,14 @@ img.large {
 /*////////text////////*/
 #strike {
   text-decoration: line-through;
+}
+#header {
+  font-family: 'Pacifico', cursive;
+}
+#sub-header {
+  font-family: 'Arial', Verdana, sans-serif;
+    text-transform: uppercase;
+
 }
 button {
   background-color: grey;
