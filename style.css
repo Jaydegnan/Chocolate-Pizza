@@ -117,11 +117,17 @@ h2.header {
   text-align: left;
     }
 ul.left {
-  display: block;
+  display: inline-block;
+  width: calc(100% / 3);
+  margin: 5% auto;
+  margin-left: calc((100% / 3) / 3);
   text-align: left;
 }
 ul.right {
-  display:block;
+  display: inline-block;
+  width: calc(100% / 3);
+  margin: 5% auto;
+  margin-left: calc((100% / 3) / 3);
   text-align: left;
 }
 
